@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  @apply bg-black text-white dark:bg-white dark:text-black;
+}
+
+body {
+  @apply bg-white dark:bg-black;
+}
+
+.prose pre {
+  @apply border border-zinc-700;
+}
+
+.hljs-comment {
+  @apply text-zinc-500;
+}
