@@ -16,12 +16,13 @@ function Hello() {
           <span className="text-white bg-clip-text">👋</span>
         </p>
       </div>
-      <div className="md:ml-3">
+      <div className="md:ml-3 relative">
         <img
           src="src/assets/memoji.png"
           alt="Adi's Memoji"
           className="max-w-full md:max-w-sm sm:max-w-xs"
         />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white to-black mix-blend-multiply"></div>
       </div>
     </section>
   );
