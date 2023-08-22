@@ -1,6 +1,10 @@
 import "../index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope as faEnvelopeSolid,
   faFilePdf,
@@ -56,6 +60,22 @@ function Hello() {
               </div>
             </div>
           </a>
+          <a
+            href="https://www.instagram.com/a333di"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="relative group">
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="text-white text-2xl hover:text-orange-500 icon"
+              />
+              <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
+                Instagram
+              </div>
+            </div>
+          </a>
+
           <a
             href="https://www.linkedin.com/in/adithayyil/"
             target="_blank"

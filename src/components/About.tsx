@@ -2,7 +2,7 @@ import "../index.css";
 
 function About() {
   return (
-    <section className="mx-auto my-24 flex max-w-2xl flex-col gap-8 sm:my-40 lg:my-56">
+    <section className="mx-auto my-24 flex max-w-2xl flex-col gap-8 sm:my-36 lg:my-40">
       <h2 className="text-white text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
         About
       </h2>
@@ -16,11 +16,11 @@ function About() {
                 University of Waterloo
               </strong>
               , as well as an aspiring{" "}
-              <strong className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-center text-transparent">
+              <strong className="bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-center text-transparent">
                 software developer
               </strong>{" "}
               and{" "}
-              <strong className="bg-gradient-to-r  from-yellow-300 to-lime-500 bg-clip-text text-center text-transparent">
+              <strong className="bg-gradient-to-r from-amber-700 via-orange-300 to-rose-800 bg-clip-text text-center text-transparent">
                 video editor{" "}
               </strong>
               :D
