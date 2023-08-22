@@ -9,7 +9,7 @@ function About() {
 
       <div className="prose prose-zinc prose-headings:scroll-mt-6 prose-a:text-blue-500 dark:prose-invert sm:prose-lg lg:prose-xl">
         <ul className="text-white list-disc list-square">
-          <li>
+          <li className="text-base sm:text-lg lg:text-xl ">
             <p>
               I'm an incoming 1A Mathmatics student at the{" "}
               <strong className="bg-gradient-to-r from-yellow-500 to-orange-300 bg-clip-text text-center text-transparent">
