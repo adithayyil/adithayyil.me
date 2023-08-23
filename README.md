@@ -1,7 +1,8 @@
 # Portfolio
 
 ## Todo
-- [ ] Fix resume link
-- [ ] Project WIP tag
-- [ ] Add Experience location
+- [x] Fix resume link
+- [x] Project WIP tag
+- [x] Add Experience location
+- [ ] Add some description text to Editing work
 
