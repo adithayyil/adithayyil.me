@@ -36,75 +36,80 @@ function Hello() {
         <p className="text-1xl font-extrabold leading-none tracking-tight text-transparent sm:text-1xl md:text-2xl lg:text-3xl">
           <span className="text-white bg-clip-text">👋</span>
         </p>
-        <div className="flex justify-center mt-4 space-x-4">
-          <Link to="/resume" target="_blank" rel="noopener noreferrer">
-            <div className="relative group">
-              <FontAwesomeIcon
-                icon={faFilePdf}
-                className="text-white text-2xl hover:text-green-500 icon"
-              />
-              <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
-                Resume
-              </div>
-            </div>
-          </Link>
-          <a href="mailto:athayyil@uwaterloo.ca">
-            <div className="relative group">
-              <FontAwesomeIcon
-                icon={faEnvelopeSolid}
-                className="text-white text-2xl hover:text-red-500 icon"
-              />
-              <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
-                Email
-              </div>
-            </div>
-          </a>
-          <a
-            href="https://www.instagram.com/a333di"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="relative group">
-              <FontAwesomeIcon
-                icon={faInstagram}
-                className="text-white text-2xl hover:text-orange-500 icon"
-              />
-              <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
-                Instagram
-              </div>
-            </div>
-          </a>
 
-          <a
-            href="https://www.linkedin.com/in/adithayyil/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="relative group">
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                className="text-white text-2xl hover:text-blue-500 icon"
-              />
-              <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
-                LinkedIn
-              </div>
+        <div className="px-14 pt-9">
+          <div className="justify-center border border-gray-400 rounded-full p-3 w-13 h-13 mx-auto shadow-md lg:w-13 lg:h-13">
+            <div className="flex justify-center space-x-4">
+              <Link to="/resume" target="_blank" rel="noopener noreferrer">
+                <div className="relative group">
+                  <FontAwesomeIcon
+                    icon={faFilePdf}
+                    className="text-white text-2xl hover:text-green-500 icon"
+                  />
+                  <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
+                    Resume
+                  </div>
+                </div>
+              </Link>
+              <a href="mailto:athayyil@uwaterloo.ca">
+                <div className="relative group">
+                  <FontAwesomeIcon
+                    icon={faEnvelopeSolid}
+                    className="text-white text-2xl hover:text-red-500 icon"
+                  />
+                  <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
+                    Email
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.instagram.com/a333di"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="relative group">
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="text-white text-2xl hover:text-orange-500 icon"
+                  />
+                  <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
+                    Instagram
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/adithayyil/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="relative group">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="text-white text-2xl hover:text-blue-500 icon"
+                  />
+                  <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
+                    LinkedIn
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://github.com/adithayyil"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="relative group">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="text-white text-2xl hover:text-purple-500 icon"
+                  />
+                  <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
+                    GitHub
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-          <a
-            href="https://github.com/adithayyil"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="relative group">
-              <FontAwesomeIcon
-                icon={faGithub}
-                className="text-white text-2xl hover:text-purple-500 icon"
-              />
-              <div className="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute bg-black text-white text-xs py-1 px-2 rounded-md transform -translate-x-1/2 top-full left-1/2 transition-opacity duration-200">
-                GitHub
-              </div>
-            </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>
