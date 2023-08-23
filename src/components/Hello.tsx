@@ -15,7 +15,7 @@ function Hello() {
     <section className="mx-auto my-16 flex flex-col justify-center items-center sm:my-32 sm:max-w-xl md:max-w-3xl md:flex-row md:justify-center lg:my-48 lg:max-w-5xl">
       <div className="md:ml-3 relative">
         <img
-          src="src/assets/memoji.PNG"
+          src="/src/assets/memoji.PNG"
           alt="Adi's Memoji"
           className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-full"
         />
