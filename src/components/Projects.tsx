@@ -13,7 +13,14 @@ function Projects() {
       title: "SoundCloud Notify",
       description:
         "A Discord bot that keeps users updated about new track uploads from their favorite artists on SoundCloud",
-      skills: ["Python", "Discord.py", "SQLite", "Digital Ocean", "Docker"],
+      skills: [
+        "Python",
+        "Discord.py",
+        "Beautiful Soup",
+        "SQLite",
+        "Digital Ocean",
+        "Docker",
+      ],
       githubLink: "https://github.com/adithayyil/sc-notify",
     },
     {
@@ -53,7 +60,7 @@ function Projects() {
   return (
     <section className="mx-auto my-24 flex max-w-2xl flex-col gap-8 sm:my-32 lg:my-36">
       <h2 className="text-white text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
-        Projects
+        Tech Projects
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
         {projects.map((project, index) => (

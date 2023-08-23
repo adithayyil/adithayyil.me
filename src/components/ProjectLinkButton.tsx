@@ -13,8 +13,8 @@ function ProjectLinkButton({ link }: IconButtonProps) {
     <div className="flex items-center mt-4">
       <FontAwesomeIcon
         icon={faGithub}
-        className={`text-white text-2xl mr-2 transition-colors ${
-          isHovered ? "text-purple-500" : ""
+        className={`text-2xl mr-2 transition-colors ${
+          isHovered ? "text-purple-500" : "text-white"
         }`}
       />
       <a
@@ -27,18 +27,22 @@ function ProjectLinkButton({ link }: IconButtonProps) {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          stroke-width="9"
-          stroke="white"
-          viewBox="0 0 64 64"
-          className={`h-5 w-5 hover:stroke-purple-500 ${
+          className={`text-white h-5 w-5 hover:stroke-purple-500 ${
             isHovered ? "stroke-purple-500" : ""
           }`}
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
         >
-          <path d="M55.4,32V53.58a1.81,1.81,0,0,1-1.82,1.82H10.42A1.81,1.81,0,0,1,8.6,53.58V10.42A1.81,1.81,0,0,1,10.42,8.6H32" />
-          <polyline points="40.32 8.6 55.4 8.6 55.4 24.18" />
-          <line x1="19.32" y1="45.72" x2="54.61" y2="8.91" />
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path>
+          <path d="M11 13l9 -9"></path>
+          <path d="M15 4h5v5"></path>
         </svg>
       </a>
     </div>
