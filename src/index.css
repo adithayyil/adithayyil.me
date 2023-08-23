@@ -12,11 +12,11 @@
 }
 
 ::selection {
-  @apply bg-black text-white dark:bg-white dark:text-black;
+  @apply bg-white text-black;
 }
 
 body {
-  @apply bg-white dark:bg-black;
+  @apply bg-black;
 }
 
 .prose pre {
