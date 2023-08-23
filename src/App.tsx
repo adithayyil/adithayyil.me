@@ -1,14 +1,15 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hello from "./components/Hello";
 import About from "./components/About";
-
-import "./index.css";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import EditingWork from "./components/EditingWork";
+import Resume from "./components/Resume";
+import "./index.css";
 
-function App() {
+function HomePage() {
   return (
-    <main className="px-12 pb-24">
+    <div>
       <Hello />
       <About />
       <Experience />
@@ -17,7 +18,20 @@ function App() {
       <footer className="text-center text-gray-500">
         © 2023 Adithya Thayyil
       </footer>
-    </main>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <main className="px-12 pb-24">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </main>
+    </Router>
   );
 }
 export default App;

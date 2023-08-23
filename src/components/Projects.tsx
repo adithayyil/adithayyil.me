@@ -6,8 +6,17 @@ function Projects() {
     {
       title: "PlantPro",
       description:
-        "Previously a Hackathon project written in Vanilla JS, and currently working on V2!",
-      skills: ["React", "Tailwind CSS", "MongoDB", "Digital Ocean", "Docker"],
+        "A web app which lets you search and keep track of your plants like a pro!",
+      skills: [
+        "React",
+        "Node.js",
+        "Express",
+        "Tailwind CSS",
+        "MongoDB",
+        "Digital Ocean",
+        "Docker",
+      ],
+      isWorkInProgress: true,
     },
     {
       title: "SoundCloud Notify",

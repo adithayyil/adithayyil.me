@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "../index.css";
 import memoji from "../assets/memoji.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -35,11 +37,7 @@ function Hello() {
           <span className="text-white bg-clip-text">👋</span>
         </p>
         <div className="flex justify-center mt-4 space-x-4">
-          <a
-            href="src/assets/Resume_Summer_2023.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link to="/resume" target="_blank" rel="noopener noreferrer">
             <div className="relative group">
               <FontAwesomeIcon
                 icon={faFilePdf}
@@ -49,7 +47,7 @@ function Hello() {
                 Resume
               </div>
             </div>
-          </a>
+          </Link>
           <a href="mailto:athayyil@uwaterloo.ca">
             <div className="relative group">
               <FontAwesomeIcon

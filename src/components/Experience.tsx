@@ -35,7 +35,7 @@ function Experience() {
               Volunteering Executive
             </h3>
             <h3 className="mb-1 text-sm text-white italic">
-              Vaishno Devi Temple
+              Vaishno Devi Temple, Oakville
             </h3>
             <time className="block mb-3 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               July 2022 - August 2023
@@ -82,7 +82,9 @@ function Experience() {
             <h3 className="text-lg font-semibold text-white">
               Artist Liaison & Production Assistant
             </h3>
-            <h3 className="mb-1 text-sm text-white italic">Fringe Festival</h3>
+            <h3 className="mb-1 text-sm text-white italic">
+              Hamilton Fringe Festival
+            </h3>
             <time className="block mb-3 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               July 2022 - August 2022
             </time>
