@@ -1,18 +1,21 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Hello from "./components/Hello";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Experience from "./components/Experience";
+import Experiences from "./components/WorkExperiencesSection";
 import EditingWork from "./components/EditingWork";
 import Resume from "./components/Resume";
+
 import "./index.css";
+import icon from "./assets/a-icon.png";
 
 function HomePage() {
   return (
     <div>
       <Hello />
       <About />
-      <Experience />
+      <Experiences />
       <Projects />
       <EditingWork />
       <footer className="text-center text-gray-500">
@@ -26,6 +29,7 @@ function App() {
   return (
     <Router>
       <main className="px-12 pb-24">
+        <link rel="icon" type="image/svg+xml" href={icon} />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/resume" element={<Resume />} />

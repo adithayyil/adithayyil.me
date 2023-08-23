@@ -7,6 +7,8 @@ function Resume() {
     if (iframe) {
       iframe.src = resume;
     }
+
+    document.title = "Resume - Adithya Thayyil";
   }, []);
 
   return (
