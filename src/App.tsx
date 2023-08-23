@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Hello from "./components/Hello";
@@ -13,6 +14,25 @@ import icon from "./assets/a-icon.png";
 function HomePage() {
   return (
     <div>
+      <Helmet>
+        <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content="An aspiring software developer and video editor :D"
+        />
+        <meta property="og:title" content="Adithya Thayyil" />
+        <meta
+          property="og:description"
+          content="An aspiring software developer and video editor :D"
+        />
+        <meta
+          property="og:image"
+          content="https://adithayyil.me/images/memoji.png"
+        />
+        <meta property="og:url" content="https://adithayyil.me/" />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       <Hello />
       <About />
       <Experiences />
@@ -38,4 +58,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;

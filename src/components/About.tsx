@@ -21,7 +21,7 @@ function About() {
           <strong className="bg-gradient-to-r from-amber-700 via-orange-300 to-rose-800 bg-clip-text text-center text-transparent">
             video editor{" "}
           </strong>
-          :D !
+          :D
         </p>
       </div>
     </section>
