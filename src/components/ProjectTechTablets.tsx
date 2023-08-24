@@ -8,7 +8,7 @@ function TechTablets({ skills }: TechTabletsProps) {
       {skills.map((skill, index) => (
         <div
           key={index}
-          className="bg-black text-white px-2 py-1 rounded-full text-sm mr-2 mb-2"
+          className="bg-gradient-to-r from-gray-950 via-gray-900 to-black text-white px-2 py-1 rounded-full text-sm mr-2 mb-2"
         >
           {skill}
         </div>

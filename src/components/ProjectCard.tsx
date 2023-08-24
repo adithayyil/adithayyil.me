@@ -17,9 +17,9 @@ function ProjectCard({
   isWorkInProgress = false,
 }: ProjectCardProps) {
   return (
-    <div className="w-full p-4">
-      <div className="p-6 bg-gradient-to-b from-purple-900 to-purple-600 border border-white rounded-lg shadow-lg shadow-purple-600/60">
-        <div className="flex items-center">
+    <div className="h-full flex flex-col">
+      <div className="flex-grow p-6 bg-gradient-to-b from-purple-900 to-purple-600 border border-white rounded-lg shadow-lg shadow-purple-600/60 flex flex-col justify-between">
+        <div>
           <h3 className="text-white text-lg font-semibold mb-2">
             {title}
             {isWorkInProgress && (
@@ -28,10 +28,14 @@ function ProjectCard({
               </span>
             )}
           </h3>
+          <p className="text-white">{description}</p>
+          <TechTablets skills={skills} />
         </div>
-        <p className="text-white">{description}</p>
-        <TechTablets skills={skills} />
-        {githubLink && <ProjectLinkButton link={githubLink} />}
+        {githubLink && (
+          <div className="mt-auto">
+            <ProjectLinkButton link={githubLink} />
+          </div>
+        )}
       </div>
     </div>
   );
