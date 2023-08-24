@@ -11,7 +11,7 @@ function Experiences() {
         <ol className="relative border-l border-gray-700">
           {workExperiences.map((experience, index) => (
             <li key={index} className="mb-10 ml-6">
-              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-stone-950 bg-gradient-to-r from-purple-500 to-indigo-500">
+              <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-stone-950 bg-gradient-to-r from-purple-500 to-indigo-500 shadow-xl shadow-purple-600">
                 {experience.icon}
               </span>
               <h3 className="text-lg font-semibold text-white">

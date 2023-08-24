@@ -14,21 +14,21 @@ function ProjectLinkButton({ link }: IconButtonProps) {
       <FontAwesomeIcon
         icon={faGithub}
         className={`text-2xl mr-2 transition-colors ${
-          isHovered ? "text-purple-500" : "text-white"
+          isHovered ? "text-black" : "text-white"
         }`}
       />
       <a
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="group hover:text-purple-500"
+        className="group hover:text-black"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`text-white h-5 w-5 hover:stroke-purple-500 ${
-            isHovered ? "stroke-purple-500" : ""
+          className={`text-white h-5 w-5 hover:stroke-black ${
+            isHovered ? "stroke-black" : ""
           }`}
           width="24"
           height="24"

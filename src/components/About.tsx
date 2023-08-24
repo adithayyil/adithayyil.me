@@ -15,11 +15,11 @@ function About() {
           </strong>
           . In addition to my academic pursuits, I am also aspiring to develop
           my skills as a{" "}
-          <strong className="bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-center text-transparent">
+          <strong className="bg-gradient-to-r from-purple-500 to-indigo-300 bg-clip-text text-center text-transparent">
             software developer
           </strong>{" "}
           and{" "}
-          <strong className="bg-gradient-to-r from-amber-700 via-orange-300 to-rose-800 bg-clip-text text-center text-transparent">
+          <strong className="bg-gradient-to-r from-red-300 via-magenta-200 to-red-400 bg-clip-text text-center text-transparent">
             video editor
           </strong>
           .

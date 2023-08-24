@@ -18,7 +18,7 @@ function ProjectCard({
 }: ProjectCardProps) {
   return (
     <div className="w-full p-4">
-      <div className="bg-stone-950 border border-white rounded-lg shadow-md p-6">
+      <div className="p-6 bg-gradient-to-b from-purple-900 to-purple-600 border border-white rounded-lg shadow-lg shadow-purple-600/60">
         <div className="flex items-center">
           <h3 className="text-white text-lg font-semibold mb-2">
             {title}
@@ -29,7 +29,7 @@ function ProjectCard({
             )}
           </h3>
         </div>
-        <p className="text-gray-300">{description}</p>
+        <p className="text-white">{description}</p>
         <TechTablets skills={skills} />
         {githubLink && <ProjectLinkButton link={githubLink} />}
       </div>
