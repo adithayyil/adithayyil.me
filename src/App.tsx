@@ -5,7 +5,9 @@ import Hello from "./components/Hello";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Experiences from "./components/WorkExperiencesSection";
-import EditingWork from "./components/EditingWork";
+import VisualWork from "./components/VisualWork";
+import GraphicWork from "./components/GraphicWork";
+import VideoWork from "./components/VideoWork";
 import Resume from "./components/Resume";
 
 import "./index.css";
@@ -37,7 +39,7 @@ function HomePage() {
       <About />
       <Experiences />
       <Projects />
-      <EditingWork />
+      <VisualWork />
       <footer className="text-center text-gray-500">
         © 2023 Adithya Thayyil
       </footer>
@@ -53,6 +55,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/graphic" element={<GraphicWork />} />
+          <Route path="/video" element={<VideoWork />} />
         </Routes>
       </main>
     </Router>
