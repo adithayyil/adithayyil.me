@@ -1,19 +1,11 @@
 import React from "react";
 import Plyr from "plyr-react";
-import "plyr/dist/plyr.css";
 
-import Loadable from "react-loadable";
-
-interface VideoPlayerProps {
+interface VideoPlayer {
   videoUrl: string;
 }
 
-const LoadableVideoPlayer = Loadable({
-  loader: () => import(/* webpackChunkName: "plyr" */ "plyr-react"),
-  loading: () => <div>Loading...</div>,
-});
-
-const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoUrl }) => {
+const VideoPlayer: React.FC<VideoPlayer> = ({ videoUrl }) => {
   return (
     <div>
       <style>
@@ -23,7 +15,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoUrl }) => {
           }
         `}
       </style>
-      <LoadableVideoPlayer
+      <Plyr
         source={{
           type: "video",
           sources: [

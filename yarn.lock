@@ -1426,7 +1426,7 @@ plyr-react@^5.3.0:
     plyr "^3.7.7"
     react-aptor "^2.0.0"
 
-plyr@^3.7.7, plyr@^3.7.8:
+plyr@^3.7.7:
   version "3.7.8"
   resolved "https://registry.npmjs.org/plyr/-/plyr-3.7.8.tgz"
   integrity sha512-yG/EHDobwbB/uP+4Bm6eUpJ93f8xxHjjk2dYcD1Oqpe1EcuQl5tzzw9Oq+uVAzd2lkM11qZfydSiyIpiB8pgdA==
