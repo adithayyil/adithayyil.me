@@ -6,8 +6,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Experiences from "./components/WorkExperiencesSection";
 import VisualWork from "./components/VisualWork";
-import GraphicWork from "./components/GraphicWork";
-import VideoWork from "./components/VideoWork";
+import VisualWorkPage from "./components/VisualWorkPage";
 import Resume from "./components/Resume";
 
 import "./index.css";
@@ -29,7 +28,7 @@ function HomePage() {
         />
         <meta
           property="og:image"
-          content="https://adithayyil.me/images/memoji.png"
+          content="https://cdn.adithayyil.me/images/memoji.png"
         />
         <meta property="og:url" content="https://adithayyil.me/" />
         <meta property="og:type" content="website" />
@@ -55,8 +54,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/graphic" element={<GraphicWork />} />
-          <Route path="/video" element={<VideoWork />} />
+          <Route path="/visual" element={<VisualWorkPage />} />
         </Routes>
       </main>
     </Router>

@@ -1,7 +1,8 @@
 import { useEffect } from "react";
-import resume from "../assets/Resume_Summer_2023.pdf";
 
 function Resume() {
+  const resume = "https://cdn.adithayyil.me/documents/Resume_Summer_2023.pdf";
+
   useEffect(() => {
     const iframe = document.getElementById("pdf-iframe") as HTMLIFrameElement;
     if (iframe) {

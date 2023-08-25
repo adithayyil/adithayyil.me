@@ -11,7 +11,8 @@ import {
   faEnvelope as faEnvelopeSolid,
   faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
-import memoji from "../assets/memoji.png";
+
+const memoji = "https://cdn.adithayyil.me/images/memoji.png";
 
 function Hello() {
   return (
