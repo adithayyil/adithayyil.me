@@ -1,6 +1,6 @@
-import VideoPlayer from "./VideoPlayer";
+// import VideoPlayer from "./VideoPlayer";
 
-function GraphicWork() {
+function VisualWorkPage() {
   return (
     <main className="px-6 pt-16 pb-40 sm:pt-20 lg:pt-24">
       <div className="mx-auto flex max-w-2xl flex-col gap-4 py-4 text-center">
@@ -65,4 +65,4 @@ function GraphicWork() {
   );
 }
 
-export default GraphicWork;
+export default VisualWorkPage;
