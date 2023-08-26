@@ -23,9 +23,12 @@ function ProjectCard({
           <h3 className="text-white text-lg font-semibold mb-2">
             {title}
             {isWorkInProgress && (
-              <span className="bg-yellow-500 text-black py-1 px-2 rounded-full text-xs ml-2">
-                Work in Progress
-              </span>
+              <div>
+                {" "}
+                <span className="text-xs font-medium mr-2 px-2.5 py-0.5 rounded text-yellow-300 border border-yellow-300">
+                  Work in Progress
+                </span>
+              </div>
             )}
           </h3>
           <p className="text-white">{description}</p>

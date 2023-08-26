@@ -8,6 +8,7 @@ import Experiences from "./components/WorkExperiencesSection";
 import VisualWork from "./components/VisualWork";
 import VisualWorkPage from "./components/VisualWorkPage";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 import "./index.css";
 import icon from "./assets/a-icon.png";
@@ -39,9 +40,7 @@ function HomePage() {
       <Experiences />
       <Projects />
       <VisualWork />
-      <footer className="text-center text-gray-500">
-        © 2023 Adithya Thayyil
-      </footer>
+      <Footer />
     </div>
   );
 }
@@ -54,7 +53,15 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/visual" element={<VisualWorkPage />} />
+          <Route
+            path="/visual"
+            element={
+              <>
+                <VisualWorkPage />
+                <Footer />
+              </>
+            }
+          />
         </Routes>
       </main>
     </Router>
