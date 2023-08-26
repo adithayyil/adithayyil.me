@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 
 import "./index.css";
 import icon from "./assets/a-icon.png";
+import ScrollToTop from "./components/ScrollToTop";
 
 function HomePage() {
   return (
@@ -51,12 +52,21 @@ function App() {
       <main className="px-12 pb-24">
         <link rel="icon" type="image/svg+xml" href={icon} />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <ScrollToTop />
+                <HomePage />
+              </>
+            }
+          />
           <Route path="/resume" element={<Resume />} />
           <Route
             path="/visual"
             element={
               <>
+                <ScrollToTop />
                 <VisualWorkPage />
                 <Footer />
               </>
