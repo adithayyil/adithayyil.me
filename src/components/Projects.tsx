@@ -71,7 +71,7 @@ function Projects() {
       <h2 className="text-white text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
         Tech Projects
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 pt-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-9 pt-2">
         {projects.map((project, index) => (
           <div key={index}>
             <ProjectCard {...project} />

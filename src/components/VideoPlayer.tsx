@@ -42,7 +42,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoUrl }) => {
         ) : (
           <div
             onClick={handlePlay}
-            className="absolute top-0 left-0 w-full h-full bg-black flex justify-center items-center cursor-pointer"
+            className="absolute top-0 left-0 w-full h-full bg-black flex justify-center items-center cursor-pointer border border-white"
           >
             <button
               onClick={handlePlay}
