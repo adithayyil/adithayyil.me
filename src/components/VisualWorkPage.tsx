@@ -15,6 +15,7 @@ function VisualWorkPage() {
     illBeWaiting:
       "https://cdn.adithayyil.me/videos/experimental/ill-be-waiting.mp4",
     tied: "https://cdn.adithayyil.me/videos/experimental/tied.mp4",
+    aaa: "https://cdn.adithayyil.me/videos/experimental/aaa-release.mp4",
   };
 
   return (
@@ -107,7 +108,7 @@ function VisualWorkPage() {
               Unlock Battle of the ADs Video
             </h2>
             <p className="text-sm mb-4 md:text-base">
-              Product advertisement which showcased more information about
+              Product advertisement which showcased more information about our
               product
             </p>
             <VideoPlayer videoUrl={assetUrls["unlockBotaVideo"]} />
@@ -132,7 +133,7 @@ function VisualWorkPage() {
               Unlock Promotional Image
             </h2>
             <p className="text-sm mb-4 md:text-base">
-              Promotional graphic made for our social media platforms
+              One of the promotional graphic made for our social media platforms
             </p>
             <img
               src={assetUrls["unlockPromotional"]}
@@ -202,7 +203,8 @@ function VisualWorkPage() {
             </h2>
             <p className="text-sm mb-4 md:text-base">
               A cinematic Call of Duty: Black Ops II edit with an emphasis on
-              lighting, color correction, and compositing
+              lighting, color correction, compositing, and motion
+              interpolation/time remap
             </p>
 
             <VideoPlayer videoUrl={assetUrls["illBeWaiting"]} />
@@ -217,7 +219,8 @@ function VisualWorkPage() {
             <h2 className=" text-2xl font-semibold mb-2 md:text-3xl">"Tied"</h2>
             <p className="text-sm mb-4 md:text-base">
               A cinematic Call of Duty: Black Ops II edit with elements of
-              storytelling with emphasis on visual atmospherics
+              visual storytelling with emphasis on motion interpolation/time
+              remap & visual atmospherics
             </p>
 
             <VideoPlayer videoUrl={assetUrls["tied"]} />
@@ -233,13 +236,30 @@ function VisualWorkPage() {
               "Connexions Humaines"
             </h2>
             <p className="text-sm mb-4 md:text-base">
-              Art piece which part of my project "Tied"
+              Art piece which was part of my project "Tied"
             </p>
 
             <img src={assetUrls["connections"]} alt="Connections" />
 
             <p className="text-sm mt-4 md:text-base">
               Created with <strong className="text-orange-400">Blender</strong>
+            </p>
+          </div>
+
+          <div className=" p-4 rounded-lg border border-red-400 shadow-lg shadow-red-400/60">
+            <h2 className=" text-2xl font-semibold mb-2 md:text-3xl">
+              "AAA Release"
+            </h2>
+            <p className="text-sm mb-4 md:text-base">
+              A cinematic Call of Duty: Black Ops II edit with an emphasis on
+              motion interpolation/time remap & visual atmospherics
+            </p>
+
+            <VideoPlayer videoUrl={assetUrls["aaa"]} />
+
+            <p className="text-sm mt-4 md:text-base">
+              Created with{" "}
+              <strong className="text-violet-400">After Effects</strong>
             </p>
           </div>
         </div>
