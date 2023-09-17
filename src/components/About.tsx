@@ -9,7 +9,7 @@ function About() {
       <div className="prose prose-zinc prose-headings:scroll-mt-6 prose-a:text-blue-500 dark:prose-invert sm:prose-lg lg:prose-xl text-white text-base sm:text-lg lg:text-xl space-y-4">
         {" "}
         <p>
-          I am an incoming 1A Mathematics student at the{" "}
+          I am 1A Honours Mathematics student at the{" "}
           <strong className="bg-gradient-to-r from-yellow-500 to-orange-300 bg-clip-text text-center text-transparent">
             University of Waterloo
           </strong>
