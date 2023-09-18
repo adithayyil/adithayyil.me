@@ -20,7 +20,7 @@ function About() {
           </strong>{" "}
           and{" "}
           <strong className="bg-gradient-to-r from-red-300 via-magenta-200 to-red-400 bg-clip-text text-center text-transparent">
-            video editor
+            creative video editor
           </strong>
           .
         </p>
