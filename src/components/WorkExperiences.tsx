@@ -8,8 +8,8 @@ const workExperiences = [
     duration: "July 2022 - August 2023",
     responsibilities: [
       "Organized and delegated tasks to volunteers, overseeing activities like cleaning, serving, gardening, etc.",
-      "Enhanced temple operations by collaborating on executive presentations, forms, and event coordination",
-      "Demonstrated strong organizational abilities through contributions to major events, including Diwali celebration and weddings",
+      "Enhanced temple operations by collaborating on executive presentations, forms, and event coordination.",
+      "Demonstrated strong organizational abilities through contributions to major events, including Diwali celebration and weddings.",
     ],
     icon: (
       <SvgIcon
@@ -38,9 +38,9 @@ const workExperiences = [
     company: "Hamilton Fringe Festival",
     duration: "July 2022 - August 2022",
     responsibilities: [
-      "Managed artist logistics including accommodations, transportation, and schedules for streamlined event operations",
-      "Supported event setup, stage management, and audio equipment to enhance performance success",
-      "Ensured artists' technical needs and backstage requirements were met through close collaboration with production teams",
+      "Managed artist logistics including accommodations, transportation, and schedules for streamlined event operations.",
+      "Supported event setup, stage management, and audio equipment to enhance performance success.",
+      "Ensured artists' technical needs and backstage requirements were met through close collaboration with production teams.",
     ],
     icon: (
       <SvgIcon
@@ -67,12 +67,12 @@ const workExperiences = [
     company: "Unlock, JA Company Program",
     duration: "November 2021 - April 2022",
     responsibilities: [
-      "Co-founded and led student-run company, Unlock, addressing can-opening challenges for physically weak individuals",
-      "Developed Unlock Tab for arthritis patients, children, and those with motor skill difficulties",
-      "Managed end-to-end processes: product design, research, marketing, and shipping",
-      "Established and customized online store using Shopify, incorporating unique design and branding through Liquid template language",
-      "Integrated payment gateways, shipping solutions, and inventory management on Shopify platform",
-      "Utilized Adobe tools for logo design, advertisements, and marketing materials, ensuring high-quality visuals",
+      "Co-founded and led a profitable student-mentor company addressing challenges for physically weak individuals.",
+      "Developed Unlock Tab for arthritis patients and those with motor skill difficulties, generating over $1000 CAD in profit.",
+      "Managed product lifecycle: design, research, marketing, and shipping.",
+      "Established a customized Shopify online store with a unique design using Liquid template language.",
+      "Integrated payment gateways, shipping solutions, and inventory management on Shopify to optimize financial outcomes.",
+      "Enhanced brand recognition with Adobe tools, crafting marketing visuals that reached 6,000+ people.",
     ],
     icon: (
       <SvgIcon
