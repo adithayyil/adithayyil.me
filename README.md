@@ -7,6 +7,6 @@
 - [x] Add some description text to Editing work
 - [ ] Better UI for editing exp
 - [ ] Picture cards for projects
-- [ ] Fix metadata and add a icon
+- [x] Fix metadata and add a icon
 
 
