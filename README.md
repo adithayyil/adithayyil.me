@@ -1,6 +1,7 @@
 # Portfolio
 
 ## Todo
+
 - [x] Fix resume link
 - [x] Project WIP tag
 - [x] Add Experience location
@@ -8,5 +9,3 @@
 - [ ] Better UI for editing exp
 - [ ] Picture cards for projects
 - [x] Fix metadata and add a icon
-
-
