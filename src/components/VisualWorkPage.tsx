@@ -14,7 +14,7 @@ function VisualWorkPage() {
     sttart:
       "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/videos/experimental/sttart.mp4",
     connections:
-      "https://cdn.adithayyil.me/images/experimental/connections.png",
+      "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/images/experimental/connections.png",
     cherry:
       "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/videos/experimental/cherry.mp4",
     illBeWaiting:
