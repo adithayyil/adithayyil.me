@@ -3,19 +3,24 @@ import VideoPlayer from "./VideoPlayer";
 
 function VisualWorkPage() {
   const assetUrls = {
-    unlockLaunchVideo: "https://cdn.adithayyil.me/videos/unlock/launch.mp4",
-    unlockBotaVideo: "https://cdn.adithayyil.me/videos/unlock/bota.mp4",
-    unlockLogo: "https://cdn.adithayyil.me/images/unlock/logo-white.png",
+    unlockLaunchVideo:
+      "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/videos/unlock/launch.mp4",
+    unlockBotaVideo:
+      "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/videos/unlock/bota.mp4",
+    unlockLogo:
+      "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/images/unlock/logo-white.png",
     unlockPromotional:
-      "https://cdn.adithayyil.me/images/unlock/promotional.jpg",
-    sttart: "https://cdn.adithayyil.me/videos/experimental/sttart.mp4",
+      "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/images/unlock/promotional.jpg",
+    sttart:
+      "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/videos/experimental/sttart.mp4",
     connections:
       "https://cdn.adithayyil.me/images/experimental/connections.png",
-    cherry: "https://cdn.adithayyil.me/videos/experimental/cherry.mp4",
+    cherry:
+      "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/videos/experimental/cherry.mp4",
     illBeWaiting:
-      "https://cdn.adithayyil.me/videos/experimental/ill-be-waiting.mp4",
-    tied: "https://cdn.adithayyil.me/videos/experimental/tied.mp4",
-    aaa: "https://cdn.adithayyil.me/videos/experimental/aaa-release.mp4",
+      "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/videos/experimental/ill-be-waiting.mp4",
+    tied: "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/videos/experimental/tied.mp4",
+    aaa: "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/videos/experimental/aaa-release.mp4",
   };
 
   return (

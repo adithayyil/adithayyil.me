@@ -12,7 +12,8 @@ import {
   faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
 
-const memoji = "https://cdn.adithayyil.me/images/memoji.png";
+const memoji =
+  "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/images/memoji.png";
 
 function Hello() {
   return (
