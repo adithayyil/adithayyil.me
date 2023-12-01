@@ -10,7 +10,6 @@ import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
 import "./index.css";
-import icon from "./assets/a-icon.png";
 import ScrollToTop from "./components/ScrollToTop";
 
 function HomePage() {
@@ -30,7 +29,6 @@ function App() {
   return (
     <Router>
       <main className="px-12 pb-24">
-        <link rel="icon" type="image/svg+xml" href={icon} />
         <Routes>
           <Route
             path="/"
