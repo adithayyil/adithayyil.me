@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 function Resume() {
   const resume =
-    "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/documents/Resume_2023.pdf";
+    "https://adi-visual.nyc3.cdn.digitaloceanspaces.com/documents/Resume.pdf";
 
   useEffect(() => {
     const iframe = document.getElementById("pdf-iframe") as HTMLIFrameElement;
