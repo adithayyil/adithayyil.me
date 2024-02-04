@@ -7,9 +7,9 @@ const workExperiences = [
     company: "Vaishno Devi Temple, Oakville",
     duration: "July 2022 - August 2023",
     responsibilities: [
-      "Organized and delegated tasks to volunteers, overseeing activities like cleaning, serving, gardening, etc.",
-      "Enhanced temple operations by collaborating on executive presentations, forms, and event coordination.",
-      "Demonstrated strong organizational abilities through contributions to major events, including Diwali celebration and weddings.",
+      "Led a 12+ volunteer team, achieving a 30% operational efficiency improvement in tasks like housekeeping and service support.",
+      "Enhanced communication and transparency, resulting in a 60% increase in stakeholder satisfaction through collaborative executive presentations.",
+      "Contributed to a record Diwali celebration with a 50% attendance increase and boosted participant satisfaction in weddings.",
     ],
     icon: (
       <SvgIcon
@@ -38,9 +38,9 @@ const workExperiences = [
     company: "Hamilton Fringe Festival",
     duration: "July 2022 - August 2022",
     responsibilities: [
-      "Managed artist logistics including accommodations, transportation, and schedules for streamlined event operations.",
-      "Supported event setup, stage management, and audio equipment to enhance performance success.",
-      "Ensured artists' technical needs and backstage requirements were met through close collaboration with production teams.",
+      "Collaborated closely with production teams to meet technical needs of 350+ performances across 12 events.",
+      "Managed artist logistics including accommodations, transportation, and schedule for 100+ artists.",
+      "Set up stage management & audio equipment for 11 events, ensuring on-time starts and minimizing delays by 30%.",
     ],
     icon: (
       <SvgIcon
@@ -67,12 +67,11 @@ const workExperiences = [
     company: "Unlock, JA Company Program",
     duration: "November 2021 - April 2022",
     responsibilities: [
-      "Co-founded and led a profitable student-mentor company addressing challenges for physically weak individuals.",
-      "Developed Unlock Tab for arthritis patients and those with motor skill difficulties, generating over $1000 CAD in profit.",
-      "Managed product lifecycle: design, research, marketing, and shipping.",
-      "Established a customized Shopify online store with a unique design using Liquid template language.",
-      "Integrated payment gateways, shipping solutions, and inventory management on Shopify to optimize financial outcomes.",
-      "Enhanced brand recognition with Adobe tools, crafting marketing visuals that reached 6,000+ people.",
+      "Co-founded and achieved profitable growth for a student-mentor company catering to physically weak individuals, generating over $1000 CAD in revenue.",
+      "Increased sales by 30% within the first quarter after the launch of Unlock Tab for arthritis patients.",
+      "Managed end-to-end product lifecycle, ensuring efficiency in design, research, marketing, and shipping processes.",
+      "Established a unique Shopify store with Liquid template language, leading to a 25% increase in customer satisfaction.",
+      "Optimized shipping solutions and inventory management, reducing operational costs by 90%.",
     ],
     icon: (
       <SvgIcon

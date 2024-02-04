@@ -4,6 +4,13 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   const projects = [
     {
+      title: "Docktor",
+      description:
+        "A custom-built Linux server tailored for the purpose of efficiently storing and seamlessly running Docker images and containers, ensuring optimal performance and scalability for my containerized applications.",
+      skills: ["Arch Linux", "Docker", "Cloudflare Tunnels"],
+      isWorkInProgress: false,
+    },
+    {
       title: "PlantPro",
       description:
         "All-in-one web app for searching a wide array of plant species, setting up planting reminders, and accessing expert care tips, transforming you into a plant care pro in no time",
