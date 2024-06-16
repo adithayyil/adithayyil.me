@@ -53,7 +53,7 @@ function Hello() {
                   </div>
                 </div>
               </Link>
-              <a href="mailto:mail@adithayyil.me">
+              <a href="mailto:adithayyil@icloud.com">
                 <div className="relative group">
                   <FontAwesomeIcon
                     icon={faEnvelopeSolid}

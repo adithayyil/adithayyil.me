@@ -4,27 +4,34 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   const projects = [
     {
+      title: "bsdl",
+      description:
+      "An efficient BeatStars music downloader in Go, featuring concurrent downloads for speed and metadata tagging for improved music organization and searchability.",
+      skills: ["Go", "ID3", "Music Metadata"],
+      githubLink: "https://github.com/adithayyil/bsdl",
+    },
+    {
       title: "Docktor",
       description:
         "A custom-built Linux server tailored for the purpose of efficiently storing and seamlessly running Docker images and containers, ensuring optimal performance and scalability for my containerized applications.",
       skills: ["Arch Linux", "Docker", "Cloudflare Tunnels"],
       isWorkInProgress: false,
     },
-    {
-      title: "PlantPro",
-      description:
-        "All-in-one web app for searching a wide array of plant species, setting up planting reminders, and accessing expert care tips, transforming you into a plant care pro in no time",
-      skills: [
-        "React",
-        "Node.js",
-        "Express",
-        "Tailwind CSS",
-        "MongoDB",
-        "Digital Ocean",
-        "Docker",
-      ],
-      isWorkInProgress: true,
-    },
+    // {
+    //   title: "PlantPro",
+    //   description:
+    //     "All-in-one web app for searching a wide array of plant species, setting up planting reminders, and accessing expert care tips, transforming you into a plant care pro in no time",
+    //   skills: [
+    //     "React",
+    //     "Node.js",
+    //     "Express",
+    //     "Tailwind CSS",
+    //     "MongoDB",
+    //     "Digital Ocean",
+    //     "Docker",
+    //   ],
+    //   isWorkInProgress: true,
+    // },
     {
       title: "SoundCloud Notify",
       description:
@@ -38,13 +45,6 @@ function Projects() {
         "Docker",
       ],
       githubLink: "https://github.com/adithayyil/sc-notify",
-    },
-    {
-      title: "bsdl",
-      description:
-        "A streamlined CLI tool for downloading your beloved beats from BeatStars, complete with automatic ID3 metadata tagging – your shortcut to a well-organized music collection",
-      skills: ["Python", "ID3", "Music Metadata"],
-      githubLink: "https://github.com/adithayyil/bsdl",
     },
     {
       title: "NAS + VPN Server",

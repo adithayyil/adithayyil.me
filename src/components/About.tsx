@@ -24,12 +24,12 @@ function About() {
           </strong>
           .
         </p>
-        <p>
+        {/* <p>
           When I'm not buried in school work, I unwind by spending quality time
           with family and friends, listening to music, getting creative with
           video editing, working on my software projects, or diving into some
           intense video game sessions!
-        </p>
+        </p> */}
       </div>
     </section>
   );
