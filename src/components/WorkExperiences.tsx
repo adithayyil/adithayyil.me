@@ -3,7 +3,7 @@ import SvgIcon from "./SvgIcon";
 
 const workExperiences = [
   {
-    title: "Creative Intern",
+    title: "Intern",
     company: "GENIE AI",
     duration: "May 2024 - Present",
     responsibilities: [],
