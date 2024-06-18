@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="text-center text-gray-500">
-      © 2023 Adithya Thayyil
+      © 2024 Adithya Thayyil
     </footer>
   );
 }
